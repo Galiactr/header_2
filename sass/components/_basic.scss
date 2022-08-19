@@ -3,9 +3,20 @@ html {
 }
 
 body {
-     font-family: $fontRoboto;
+     font-family: $fontFamily;
      background-color: $primaryBgc;
      letter-spacing: 0.03em;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+     margin: 0;
+}
+
+ul {
+     padding-left: 0;
 }
 
 img {
@@ -13,11 +24,33 @@ img {
      max-width: 100%;
      height: auto;
 }
+a,
+button,
+input,
+textarea {
+     outline: none;
+}
+
+address {
+     font-style: normal;
+}
 
 .section {
      padding: 60px 0;
 }
+.list {
+     list-style: none;
+}
 
+.link {
+     text-decoration: none;
+}
+
+.is-hidden {
+     visibility: hidden;
+     opacity: 0;
+     pointer-events: none;
+}
 .link:hover {
      color: $accentColor;
 }
