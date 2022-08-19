@@ -1,0 +1,98 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M1023.744 1024.005v-0.041h0.256v-375.552c0-183.725-39.552-325.25-254.336-325.25-103.255 0-172.544 56.661-200.832 110.378h-2.985v-93.226h-203.65v683.65h212.052v-338.519c0-89.129 16.896-175.318 127.278-175.318 108.754 0 110.377 101.718 110.377 181.037v332.841h211.84z",
+          "M16.897 340.35h212.309v683.65h-212.309v-683.65z",
+          "M122.966 0c-67.883 0-122.966 55.082-122.966 122.966s55.082 124.117 122.966 124.117c67.882 0 122.965-56.234 122.965-124.117-0.042-67.883-55.125-122.966-122.965-122.966v0z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(255, 255, 255)"
+          },
+          {
+            "fill": "rgb(255, 255, 255)"
+          },
+          {
+            "fill": "rgb(255, 255, 255)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "linkedin 1"
+        ],
+        "colorPermutations": {
+          "17517718412552552551": [
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(255, 255, 255)"
+        },
+        {
+          "fill": "rgb(255, 255, 255)"
+        },
+        {
+          "fill": "rgb(255, 255, 255)"
+        }
+      ],
+      "properties": {
+        "order": 38,
+        "id": 4,
+        "name": "linkedin-1",
+        "prevSize": 32
+      },
+      "setIdx": 4,
+      "setId": 5,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}
