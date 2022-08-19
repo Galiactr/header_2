@@ -1,12 +1,30 @@
 .page-header {
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 1.14;
-
+     background-color: $primaryBgc;
      border-bottom: $headerBorder;
+
+     @media screen and (max-width: 767px) {
+          position: fixed;
+          z-index: 1;
+          width: 100%;
+          padding: 10px 0;
+     }
 }
 
 .page-header__container {
      display: flex;
      align-items: center;
+
+     @media screen and (max-width: 767px) {
+          justify-content: space-between;
+     }
+}
+
+.menu-container {
+     @media screen and (min-width: $tablet) {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+
+          width: 100%;
+     }
 }
