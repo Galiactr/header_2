@@ -1,33 +1,21 @@
+html {
+     scroll-behavior: smooth;
+}
+
 body {
-     font-family: Roboto, $fontFamily;
+     font-family: $fontRoboto;
      background-color: $primaryBgc;
      letter-spacing: 0.03em;
 }
 
-ul {
-     list-style: none;
-     padding-left: 0;
+img {
+     display: block;
+     max-width: 100%;
+     height: auto;
 }
 
 .section {
-     padding: 94px 0;
-}
-
-.nav {
-     display: inherit;
-     align-items: inherit;
-}
-.container {
-     margin: 0 auto;
-     width: 1200px;
-     padding: 0 15px;
-}
-.studio {
-     animation: changeStudio $transitionModal;
-}
-
-.portfolio {
-     animation: changePortfolio $transitionModal;
+     padding: 60px 0;
 }
 
 .link:hover {
@@ -39,11 +27,43 @@ ul {
 }
 
 .title {
-     margin-bottom: 50px;
+     margin-bottom: $cardSetGap;
+
+     font-weight: 700;
+     font-size: 28px;
+     line-height: 1.18;
      text-align: center;
 
      color: $titleTextColor;
-     font-weight: 700;
-     font-size: 36px;
-     line-height: 1.17;
+
+     @media screen and (min-width: $tablet) {
+          margin-bottom: 30px;
+     }
+
+     @media screen and (min-width: $desktop) {
+          margin-bottom: 50px;
+
+          font-size: 36px;
+          line-height: 1.17;
+     }
+}
+
+body.modal-open {
+     overflow: hidden;
+}
+.container {
+     padding: 0 15px;
+     margin: 0 auto;
+
+     @media screen and (max-width: 767px) {
+          max-width: 480px;
+     }
+
+     @media screen and (min-width: $tablet) {
+          width: 768px;
+     }
+
+     @media screen and (min-width: $desktop) {
+          width: 1200px;
+     }
 }
