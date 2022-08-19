@@ -1,3 +1,33 @@
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #ffffff;
+  letter-spacing: 0.03em;
+}
+
 h1,
 h2,
 h3,
@@ -8,6 +38,12 @@ ul {
 
 ul {
   padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 a,
@@ -21,6 +57,10 @@ address {
   font-style: normal;
 }
 
+.section {
+  padding: 60px 0;
+}
+
 .list {
   list-style: none;
 }
@@ -29,7 +69,59 @@ address {
   text-decoration: none;
 }
 
-@im @import "./components/basic";
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.link:hover {
+  color: #2196f3;
+}
+
+.link:focus {
+  color: #2196f3;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.18;
+  text-align: center;
+  color: #212121;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .title {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+  }
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.title--hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .logo {
   text-decoration: none;
   color: #000000;
