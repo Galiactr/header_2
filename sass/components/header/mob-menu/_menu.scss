@@ -6,7 +6,7 @@
      background-color: transparent;
      border: none;
 
-     &__icon--menu {
+     &__icon--сcross {
           display: none;
 
           .menu-btn & {
@@ -14,12 +14,10 @@
           }
      }
 
-     &__icon--cross {
+     &__icon--menu {
           display: none;
 
-          .menu-btn & {
-                    display: block;
-               }
+          
      }
      @media screen and (min-width: $mobile) {
           
