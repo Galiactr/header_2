@@ -366,13 +366,13 @@ body.modal-open {
   background-color: transparent;
   border: none;
 }
-.menu-btn__icon--menu {
+.menu-btn__icon--cross {
   display: none;
 }
-.menu-btn .menu-btn__icon--menu {
+.menu-btn .menu-btn__icon--cross {
   display: block;
 }
-.menu-btn__icon--cross {
+.menu-btn__icon--menu {
   display: none;
 }
 @media screen and (min-width: 768px) {
