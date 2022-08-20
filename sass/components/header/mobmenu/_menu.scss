@@ -1,11 +1,12 @@
 .menu-btn {
      padding: 0;
      z-index: 2;
-
+     display: inline-flex;
+     border: none;
      background-color: transparent;
      border: none;
 
-     &__icon--cross {
+     &__icon--menu {
           display: none;
 
           .menu-btn & {
@@ -13,7 +14,7 @@
           }
      }
 
-     &+&__icon--menu {
+     &__icon--cross {
           display: none;
      }
      @media screen and (min-width: $mobile) {
