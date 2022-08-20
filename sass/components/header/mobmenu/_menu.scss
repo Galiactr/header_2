@@ -8,13 +8,16 @@
      &__icon--cross {
           display: none;
 
-          .menu-btn.is-open & {
+          .menu-btn & {
                display: block;
           }
      }
 
-     &.is-open &__icon--menu {
+     &+&__icon--menu {
           display: none;
+     }
+     @media screen and (min-width: $mobile) {
+          
      }
 
      @media screen and (min-width: $tablet) {
