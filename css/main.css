@@ -359,20 +359,17 @@ body.modal-open {
 .menu-btn {
   padding: 0;
   z-index: 2;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  border: none;
+  height: 40px;
   background-color: transparent;
   border: none;
 }
 .menu-btn__icon--cross {
   display: none;
 }
-.menu-btn .menu-btn__icon--cross {
+.menu-btn.is-open .menu-btn__icon--cross {
   display: block;
 }
-.menu-btn__icon--menu {
+.menu-btn.is-open .menu-btn__icon--menu {
   display: none;
 }
 @media screen and (min-width: 768px) {

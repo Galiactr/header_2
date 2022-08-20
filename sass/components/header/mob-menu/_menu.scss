@@ -1,26 +1,22 @@
 .menu-btn {
      padding: 0;
      z-index: 2;
-     display: inline-flex;
-     border: none;
+
+     height: 40px;
+
      background-color: transparent;
      border: none;
 
      &__icon--cross {
           display: none;
 
-          .menu-btn & {
+          .menu-btn.is-open & {
                display: block;
           }
      }
 
-     &__icon--menu {
+     &.is-open &__icon--menu {
           display: none;
-
-          
-     }
-     @media screen and (min-width: $mobile) {
-          
      }
 
      @media screen and (min-width: $tablet) {
