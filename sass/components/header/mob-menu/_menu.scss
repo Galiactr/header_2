@@ -16,6 +16,10 @@
 
      &__icon--cross {
           display: none;
+
+          .menu-btn & {
+                    display: block;
+               }
      }
      @media screen and (min-width: $mobile) {
           
