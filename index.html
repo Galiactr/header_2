@@ -1,76 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"/>
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
-       <link rel="stylesheet" href="./css/main.min.css">
-     <title>Document</title>
-</head>
-<body>
-     <header class="page-header">
-         <div class="page-header__container container">
-            <a lang="en" class="logo logo--black page-header__logo" href="./index.html">
-                <span class="logo__accent">Web</span>Studio</a>
-            <button aria-expanded="false" aria-controls="menu-container" class="menu-btn"  is-open data-menu-button>
-                <svg class="menu-btn__icons" width="40" height="40" aria-label="Перемикач мобільного меню">
-                    <use class=" menu-btn__icon--cross" href="./img/svg/icomoon_10/symbol-defs.svg#icon-close_24px"></use>
-                    <use class="menu-btn__icon--menu" href="./img/svg/icomoon_10/symbol-defs.svg#icon-menu_40px"></use>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__container container">
+        <a
+          lang="en"
+          class="logo logo--black page-header__logo"
+          href="./index.html"
+        >
+          <span class="logo__accent">Web</span>Studio</a
+        >
+        <button
+          aria-expanded="false"
+          aria-controls="menu-container"
+          class="menu-btn"
+          is-open
+          data-menu-button
+        >
+          <svg
+            class="menu-btn__icons"
+            width="40"
+            height="40"
+            aria-label="Перемикач мобільного меню"
+          >
+            <use
+              class="menu-btn__icon--cross"
+              href="./img/svg/icomoon_10/symbol-defs.svg#icon-close_24px"
+            ></use>
+            <use
+              class="menu-btn__icon--menu"
+              href="./img/svg/icomoon_10/symbol-defs.svg#icon-menu_40px"
+            ></use>
+          </svg>
+        </button>
+        <div class="menu-container" id="menu-container" data-menu>
+          <nav class="nav">
+            <ul class="site-nav list">
+              <li class="site-nav__item">
+                <a
+                  class="site-nav__link link site-nav__link--current"
+                  href="./index.html"
+                  >Студія</a
+                >
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__link link" href="./portfolio.html"
+                  >Портфоліо</a
+                >
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__link link" href="#contacts">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="contacts-list list">
+            <li class="contacts-list__item">
+              <a
+                class="contacts-list__link link"
+                href="mailto:info@example.com"
+              >
+                <svg width="16" height="12" class="contacts-list__icon">
+                  <use
+                    href="./img/svg/icomoon_2/symbol-defs.svg#icon-envelope"
+                  ></use>
                 </svg>
-            </button>
-            <div class="menu-container" id="menu-container" data-menu>
-                <nav class="nav">
-                    <ul class="site-nav list">
-                        <li class="site-nav__item">
-                            <a class="site-nav__link link site-nav__link--current" href="./index.html">Студія</a>
-                        </li>
-                        <li class="site-nav__item">
-                            <a class="site-nav__link link" href="./portfolio.html">Портфоліо</a>
-                        </li>
-                        <li class="site-nav__item">
-                            <a class="site-nav__link link" href="#contacts">Контакти</a>
-                        </li>
-                    </ul>
-                </nav>
-                <ul class="contacts-list list">
-                    <li class="contacts-list__item">
-                        <a class="contacts-list__link link" href="mailto:info@example.com">
-                            <svg width="16" height="12" class="contacts-list__icon">
-                                 <use href="./img/svg/icomoon_2/symbol-defs.svg#icon-envelope"></use>
-                            </svg>
-                            info@example.com
-                        </a>
-                    </li>
-                    <li class="contacts-list__item">
-                        <a class="contacts-list__link contacts-list__link--accent link" href="tel:+380991111111">
-                            <svg width="10" height="16" class="contacts-list__icon">
-                                <use href="./img/svg/icomoon/symbol-defs.svg#icon-Telephone_Heder"></use>
-                            </svg>
-                            +38 099 111 11 11
-                        </a>
-                    </li>
-                </ul>
-                <ul class="mobile-soc list">
-                    <li class="mobile-soc__item">
-                        <a href="" class="mobile-soc__link link">Instagram</a>
-                    </li>
-                    <li class="mobile-soc__item">
-                        <a href="" class="mobile-soc__link link">Twitter</a>
-                    </li>
-                    <li class="mobile-soc__item">
-                        <a href="" class="mobile-soc__link link">Facebook</a>
-                    </li>
-                    <li class="mobile-soc__item">
-                        <a href="" class="mobile-soc__link link">LinkedIn</a>
-                    </li>
-                </ul>
-            </div>
+                info@example.com
+              </a>
+            </li>
+            <li class="contacts-list__item">
+              <a
+                class="contacts-list__link contacts-list__link--accent link"
+                href="tel:+380991111111"
+              >
+                <svg width="10" height="16" class="contacts-list__icon">
+                  <use
+                    href="./img/svg/icomoon/symbol-defs.svg#icon-Telephone_Heder"
+                  ></use>
+                </svg>
+                +38 099 111 11 11
+              </a>
+            </li>
+          </ul>
+          <ul class="mobile-soc list">
+            <li class="mobile-soc__item">
+              <a href="" class="mobile-soc__link link">Instagram</a>
+            </li>
+            <li class="mobile-soc__item">
+              <a href="" class="mobile-soc__link link">Twitter</a>
+            </li>
+            <li class="mobile-soc__item">
+              <a href="" class="mobile-soc__link link">Facebook</a>
+            </li>
+            <li class="mobile-soc__item">
+              <a href="" class="mobile-soc__link link">LinkedIn</a>
+            </li>
+          </ul>
         </div>
-     </header>
-</body>
+      </div>
+    </header>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
 </html>
