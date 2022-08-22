@@ -353,33 +353,30 @@
                         </div>
                     </li>
                     <li data-aos="zoom-in" class="members__item">
-                        <picture>
-                            <source type="image/webp" media="(max-width: 767px)" sizes="(min-width: 320px) 320px,90vw"
-                                srcset="./img/bitmap/members/mobile/webp/member-3-450.webp 450w,
-                            ./img/bitmap/members/mobile/webp/member-3-900.webp 900w" />
-
-                            <source type="image/webp" media="(min-width: 768px) and (max-width: 1199px)"
-                                sizes="(min-width: 768px) and (min-width: 354px) 354px, 50vw" srcset="./img/bitmap/members/tablet/webp/member-3-354.webp 354w,
-                            ./img/bitmap/members/tablet/webp/member-3-708.webp 708w" />
-
-                            <source type="image/webp" media="(min-width: 1200px)" sizes="(min-width: 270px) 270px, 25vw"
-                                srcset="./img/bitmap/members/desktop/webp/member-3-270.webp 270w,
-                            ./img/bitmap/members/desktop/webp/member-3-540.webp 540w" />
-
-                            <source type="image/jpeg" media="(max-width: 767px)" sizes="(min-width: 320px) 320px,90vw"
-                                srcset="./img/bitmap/members/mobile/member-3-450.jpg 450w,
-                            ./img/bitmap/members/mobile/member-3-900.jpg 900w" />
-
-                            <source type="image/jpeg" media="(min-width: 768px) and (max-width: 1199px)"
-                                sizes="(min-width: 354px) 354px, 50vw" srcset="./img/bitmap/members/tablet/member-3-354.jpg 354w,
-                            ./img/bitmap/members/tablet/member-3-708.jpg 708w" />
-
-                            <source type="image/jpeg" media="(min-width: 1200px)" sizes="(min-width: 270px) 270px, 25vw"
-                                srcset="./img/bitmap/members/desktop/member-3-270.jpg 270w,
-                            ./img/bitmap/members/desktop/member-3-540.jpg 540w" />
-
-                            <img width="270" src="./img/bitmap/members/team_card_3.jpg" alt="Фото Миколи Тарасова" />
-                        </picture>
+                   <picture>
+                <source
+                  srcset="
+                    ./img/team/user3-desktop.jpg    1x,
+                    ./img/team/user3-desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./img/team/user3-tablet.jpg    1x,
+                    ./images/user-img/user3-tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./img/team/user3-phone.jpg    1x,
+                    ./img/team/user3-phone@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img src="./img/team/user3.jpg" alt="Миколай Тарасов" width="270" />
+              </picture>
                         <div class="members-card">
                             <h3 class="members-card__name">Микола Тарасов</h3>
                             <p lang="en" class="members-card__speciality">Marketing</p>
