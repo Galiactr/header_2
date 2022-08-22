@@ -811,7 +811,7 @@ body.modal-open {
   background-color: #2196f3;
 }
 
-.social-networks__icons {
+.social-networks__icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -819,7 +819,7 @@ body.modal-open {
   width: 20px;
   height: 20px;
 }
-.social-networks__icons:hover {
+.social-networks__icon:hover {
   color: #ffffff;
 }
 
