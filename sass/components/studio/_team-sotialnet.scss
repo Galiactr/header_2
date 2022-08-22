@@ -1,0 +1,42 @@
+.social-networks {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+
+	&__link {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		transition: $transitionBgc, $transitionColor;
+
+		width: 44px;
+		height: 44px;
+		border-radius: 50%;
+
+		color: $primaryIconColor;
+
+		&:hover {
+			color: $wightText;
+			background-color: $buttonColor;
+		}
+
+		&:focus {
+			color: $wightText;
+			background-color: $buttonColor;
+		}
+	}
+
+	&__icons {
+		display: flex;
+		fill: currentColor;
+
+		width: 20px;
+		height: 20px;
+
+		&:hover {
+			color: $wightText;
+		}
+	}
+}
