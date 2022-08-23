@@ -39,27 +39,27 @@
      }
 }
 
-.close-btn {
-     @extend %icon-centered;
-     position: absolute;
-     top: 8px;
-     right: 8px;
-     padding: 6px;
+// .close-btn {
+     
+//      position: absolute;
+//      top: 8px;
+//      right: 8px;
+//      padding: 6px;
 
-     cursor: pointer;
-     background-color: transparent;
-     border-radius: 50%;
-     border: 1px solid rgba(0, 0, 0, 0.1);
-     color: #000000;
+//      cursor: pointer;
+//      background-color: transparent;
+//      border-radius: 50%;
+//      border: 1px solid rgba(0, 0, 0, 0.1);
+//      color: #000000;
 
-     transition: $transitionColor;
+//      transition: $transitionColor;
 
-     &__icon {
-          fill: currentColor;
-     }
+//      &__icon {
+//           fill: currentColor;
+//      }
 
-     &:hover,
-     &:focus {
-          color: $accentColor;
-     }
-}
+//      &:hover,
+//      &:focus {
+//           color: $accentColor;
+//      }
+// }

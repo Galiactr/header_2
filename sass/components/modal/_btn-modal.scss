@@ -16,12 +16,14 @@
 
      transition: $transitionColor;
 
+     &:hover,
+     &:focus {
+     color: $accentColor;
+     }
+     
 }
 
-.close-btn:hover,
-.close-btn:focus {
-     color: $accentColor;
-}
+
 
 .icon-close {
      fill: currentColor;
