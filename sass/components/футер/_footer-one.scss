@@ -46,6 +46,12 @@
 
 .address {
      margin-top: 20px;
+     color: $rareTextColor;
+
+     &__item {
+               margin-bottom: 9px;
+               color: $rareTextColor;
+          }
 }
 
 .address__list {
