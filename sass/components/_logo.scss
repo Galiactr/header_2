@@ -10,11 +10,17 @@
           color: $accentColor;
      }
 
-     &.footer__logo {
-          color: $rareTextColor;
-     }
+     
 
      &.page-header__logo {
           margin-right: 93px;
      }
+}
+
+.logo--white {
+          color:$rareTextColor; 
+}
+.logo__accent {
+     color: $accentColor;;
+     font-weight: 700;
 }

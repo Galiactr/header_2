@@ -133,11 +133,17 @@ body.modal-open {
 .logo__accent {
   color: #2196f3;
 }
-.logo.footer__logo {
-  color: #ffffff;
-}
 .logo.page-header__logo {
   margin-right: 93px;
+}
+
+.logo--white {
+  color: #ffffff;
+}
+
+.logo__accent {
+  color: #2196f3;
+  font-weight: 700;
 }
 
 .page-header {
