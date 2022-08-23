@@ -1,0 +1,56 @@
+.close-btn {
+     position: absolute;
+     top: 8px;
+     right: 8px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     width: 30px;
+     height: 30px;
+
+     cursor: pointer;
+     background-color: transparent;
+     border-radius: 50%;
+     border: 1px solid rgba(0, 0, 0, 0.1);
+
+     transition: $transitionColor;
+
+}
+
+.close-btn:hover,
+.close-btn:focus {
+     color: $accentColor;
+}
+
+.icon-close {
+     fill: currentColor;
+}
+
+.order-form__btn-wrapper {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.order-form__btn {
+     padding: 10px 52px;
+
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 1.88;
+     letter-spacing: 0.06em;
+
+     color: $rareTextColor;
+     background-color: $btnColor;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     border-radius: 4px;
+     border: none;
+     transition: $transitionBgc;
+     cursor: pointer;
+}
+
+.order-form__btn:hover,
+.order-form__btn:focus {
+     background-color: $btnColor;
+}
