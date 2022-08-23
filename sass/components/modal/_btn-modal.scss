@@ -16,6 +16,10 @@
 
      transition: $transitionColor;
 
+     &__icon {
+     fill: currentColor;
+     }
+
      &:hover,
      &:focus {
      color: $accentColor;
@@ -24,10 +28,6 @@
 }
 
 
-
-.icon-close {
-     fill: currentColor;
-}
 
 .order-form__btn-wrapper {
      display: flex;
