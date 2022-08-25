@@ -1484,6 +1484,9 @@ body.modal-open {
 @media screen and (min-width: 1200px) {
   .checkbox-wrapper {
     padding: 0 12px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
