@@ -202,7 +202,6 @@ body.modal-open {
 }
 @media screen and (max-width: 767px) {
   .page-header {
-    position: fixed;
     z-index: 1;
     width: 100%;
     padding: 10px 0;
