@@ -58,7 +58,7 @@
      flex-direction: column;
      align-items: center;
      justify-content: center;
-}
+     }
 
 .hero__title {
      margin-bottom: $cardSetGap;
@@ -69,13 +69,13 @@
      text-transform: uppercase;
      font-size: 26px;
      line-height: 1.62;
+    
 
      color: $rareTextColor;
 
      @media screen and (min-width: $desktop) {
           min-width: 696px;
-
-          font-size: 44px;
+         font-size: 44px;
           line-height: 1.36;
      }
 }

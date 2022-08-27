@@ -60,6 +60,11 @@ address {
 .section {
   padding: 94px 0;
 }
+@media screen and (max-width: 767px) {
+  .section {
+    padding: 60px 0;
+  }
+}
 
 .list {
   list-style: none;
